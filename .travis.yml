@@ -5,7 +5,8 @@ rvm: 2.4
 before_install:
   - gem update --system --no-document
   - gem install bundler --no-document
-
+  - gem install pygments.rb
+  
 script: script/cibuild
 
 env:

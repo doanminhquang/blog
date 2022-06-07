@@ -2,6 +2,7 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 .rouge-table{
   margin-bottom: 0;
+  border: none;
 }
 
 table th, table td{
@@ -23,9 +24,5 @@ td.code {
 }
 
 td.code pre {
-    border: none;
-}
-
-table.rouge-table {
     border: none;
 }

@@ -56,6 +56,7 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - highlight-linedivs
  
 defaults:
   -
@@ -68,6 +69,5 @@ permalink: /:title
 
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: pygments
-highlighter: pygments
+  syntax_highlighter: rouge
+highlighter: rouge

@@ -67,9 +67,9 @@ defaults:
       
 permalink: /:title 
 
-highlighter: rouge
-
 markdown: kramdown
 kramdown:
-  input: GFM
-syntax_highlighter: rouge
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true

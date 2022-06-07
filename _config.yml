@@ -66,4 +66,7 @@ defaults:
       
 permalink: /:title 
 
+markdown: kramdown
+kramdown:
+  syntax_highlighter: pygments
 highlighter: pygments

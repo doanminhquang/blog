@@ -68,5 +68,6 @@ permalink: /:title
 
 markdown: kramdown
 kramdown:
+  input: GFM
   syntax_highlighter: pygments
 highlighter: pygments

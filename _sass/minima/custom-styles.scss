@@ -7,3 +7,20 @@
 table th, table td{
     padding: 0;
 }
+
+pre.lineno {
+    padding: 0;
+    border: none;
+}
+
+td.gutter.gl {
+    border: none;
+}
+
+td.code {
+    border: none;
+}
+
+td.code pre {
+    border: none;
+}
